@@ -1,0 +1,4 @@
+#baseurl: /starter
+permalink: pretty
+markdown:      redcarpet
+markdown_ext:  markdown,mkd,mkdn,md
