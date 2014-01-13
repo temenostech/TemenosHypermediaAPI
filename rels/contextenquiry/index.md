@@ -10,9 +10,11 @@ http://www.temenos.com/rels/contextenquiry
 GET
 
 ## description
-This type of resource is designed to return a number of enquiries associated with one or more fields on the screen.  When entering data into a form it is often useful to drill down to more detailed information about a particular value within that form, this `contextenquiry` link provides that capability by providing the name or names of the fields in the query parameters.
+This type of resource is designed to return a number of enquiries associated with one or more fields on the screen.  When entering data into a form it is often useful to drill down to more detailed information about a particular value within that form.  This `contextenquiry` link provides that capability by providing the name or names of the fields in the query parameters.
 
-The User-Agent MUST replace every occurrence of the template parameters with a value before issuing a GET for the resource.  See URI Templates [http://tools.ietf.org/html/rfc6570](http://tools.ietf.org/html/rfc6570)
+
+## uri templates
+The User-Agent MUST replace every occurrence of the template parameters with a value before issuing a request for the resource.  See URI Templates [http://tools.ietf.org/html/rfc6570](http://tools.ietf.org/html/rfc6570)
 
 `application` – (OPTIONAL) Query parameter provides the server with the ability to filter the list of context enquiry links by the supplied Application or Version
 
@@ -20,7 +22,6 @@ The User-Agent MUST replace every occurrence of the template parameters with a v
 
 
 ## example
-
 An atom representation of a link to the context enquiry list resource
 <pre>
 &lt;link rel="http://www.temenos.com/rels/contextenquiry" type="application/atom+xml;type=entry" title="contextenquiry" href="ContextEnquiry{&application*}{&field*}"/&gt;
