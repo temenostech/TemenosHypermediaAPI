@@ -3,5 +3,12 @@ layout: default
 ---
 ## Index
 
+[authorise](authorise)  
+[contextenquiry](contextenquiry)  
+[delete](delete)  
+[hold](hold)  
+[input](input)  
+[menu](menu)  
 [new](new)  
-[input](input)
+[reverse](reverse)  
+[validate](validate)  
