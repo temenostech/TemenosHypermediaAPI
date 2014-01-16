@@ -11,4 +11,5 @@ layout: default
 [menu](menu)  
 [new](new)  
 [reverse](reverse)  
-[validate](validate)  
+[validate](validate)
+[metadata](metadata)  
