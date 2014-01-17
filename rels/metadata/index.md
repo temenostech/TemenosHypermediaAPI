@@ -13,6 +13,8 @@ POST
 ## description
 This type of resource is designed to provide a runtime metadata for each field present in a T24 Application such as Customers or FundsTransfers. When entering deals into T24 on the basis of information provided in an particular field can change the behaviour of the other dependent fields i.e. can make them NOINPUT/READONLY etc.
 
+To get the runtime metadata simply POST your entity to /T24FieldMetadata() and metadata will be returned as Feed.
+
 This type resource can be very useful for a user agent to render the screen with the updated metadata information.
 
 This `metdata` resource provides that capability by returning a `Feed` of T24FieldMetadata entity containing following information;
@@ -23,7 +25,7 @@ This `metdata` resource provides that capability by returning a `Feed` of T24Fie
 
 `Property`: Property name
 
- `Visible`: Visibility of the property
+`Visible`: Visibility of the property
 
 `Mandatory`: If its mandatory
 
