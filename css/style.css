@@ -222,6 +222,9 @@ pre {
 .the-header .nav-global {
   text-transform: uppercase;
 }
+.nav-global ul li {
+  display: inline-block;
+}
 .the-header .nav-global .forkme {
   position: relative;
   top: 2px;
