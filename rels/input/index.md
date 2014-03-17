@@ -47,8 +47,8 @@ If-Match: "686897696a7c876b7e"
 &lt;entry 
     xmlns="http://www.w3.org/2005/Atom" 
     xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" 
-    xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xml:base="http://localhost:9081/hothouse-iris/Hothouse.svc/"&gt;
-    &lt;id&gt;http://localhost:9081/hothouse-iris/Hothouse.svc/Customer_Inputs()/new&lt;/id&gt;
+    xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xml:base="http://localhost:9081/hothouse-iris/Hothouse.svc/GB0010001/"&gt;
+    &lt;id&gt;http://localhost:9081/hothouse-iris/Hothouse.svc/GB0010001/Customer_Inputs()/new&lt;/id&gt;
     &lt;title type="text"&gt;&lt;/title&gt;
     &lt;updated&gt;2014-01-13T15:51:11Z&lt;/updated&gt;
 ...
