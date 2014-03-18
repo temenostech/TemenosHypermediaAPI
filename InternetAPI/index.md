@@ -11,9 +11,31 @@ The Temenos Internet API demo service provides an example internet bank with Ret
 ### Functional
 
 * [Accounts](http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibAcctDetailss\(\))
-* [Transactions Coming soon...]()
-* [Beneficiaries Coming soon...]()
-* [Payments Coming soon...]()
+
+List the internet users Accounts.
+<pre>
+Accept: application/atom+xml
+GET http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibAcctDetailss()
+</pre>
+
+
+* [Today's Transactions for account 63002](http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibTxnsTodayLists\(\)?$filter=AcctId%20eq%2063002)
+
+List Today's transactions for an Account.
+
+<pre>
+Accept: application/atom+xml
+GET http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibTxnsTodayLists()?$filter=AcctId eq {account_id}
+</pre>
+
+
+* [Account Balances]()
+
+
+* [Beneficiaries]()
+
+
+* [Payments]()
 
 
 
