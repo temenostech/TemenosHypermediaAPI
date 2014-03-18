@@ -29,7 +29,14 @@ GET http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibTxnsTodayLists()?$filter=
 </pre>
 
 
-* [Account Balances]()
+* [Account Balances](http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibAcctBalTodays())
+
+List the internet users Account balances
+
+<pre>
+Accept: application/atom+xml
+GET http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibAcctBalTodays()
+</pre>
 
 
 * [Beneficiaries]()
