@@ -39,8 +39,14 @@ GET http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibAcctBalTodays()
 </pre>
 
 
-* [Beneficiaries]()
+* [Beneficiaries](http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibBeneficiaryUtils\(\))
 
+List the internet users Beneficiaries
+
+<pre>
+Accept: application/atom+xml
+GET http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibBeneficiaryUtils()
+</pre>
 
 * [Payments]()
 
