@@ -12,7 +12,7 @@ The Temenos Core API demo provides an Hypermedia service where a path through th
 
 Our Hypermedia services are designed to be self describing and documented with dereferenceable URI's.
 
-[TemenosHypermediaAPI](rels)
+[TemenosHypermediaAPI](/rels)
 
 
 ### Type Information

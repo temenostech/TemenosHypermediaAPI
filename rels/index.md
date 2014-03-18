@@ -12,6 +12,5 @@ title: Temenos API Documentation
 [menu](menu)  
 [new](new)  
 [reverse](reverse)  
-[validate](validate)  
 [metadata](metadata)  
 
