@@ -29,7 +29,7 @@ GET http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibTxnsTodayLists()?$filter=
 </pre>
 
 
-* [Account Balances](http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibAcctBalTodays())
+* [Account Balances](http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibAcctBalTodays\(\))
 
 List the internet users Account balances
 
