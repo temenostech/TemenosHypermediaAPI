@@ -59,7 +59,7 @@ Temenos Internet API supports a few types of service layouts and description for
 
 * [OData](OData)
 * [Hypermedia](Hypermedia)
-* [Swagger coming soon](http://t24demo.cloudapp.net/hothouse-iris/Hothouse.svc/GB0010001/api-docs.json)
+* [API Browsers](/InternetAPIBrowsers)
 
 
 

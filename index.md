@@ -15,6 +15,7 @@ The Temenos Internet API demo service provides an example internet bank with Ret
 [http://t24demo.cloudapp.net/tcib-iris/](http://t24demo.cloudapp.net/tcib-iris/)
 
 * [Documentation](InternetAPI)
+* [API Browsers](InternetAPIBrowsers)
 
 #### Temenos Legacy Internet User Interface
 
@@ -34,6 +35,7 @@ The Temenos Core API demo service provides an example of internal banking employ
 [http://t24demo.cloudapp.net/hothouse-iris/](http://t24demo.cloudapp.net/hothouse-iris//Hothouse.svc/GB0010001/)
 
 * [Documentation](CoreAPI)
+* [API Browsers](CoreAPIBrowsers)
 
 ### Temenos Core User Agent
 
