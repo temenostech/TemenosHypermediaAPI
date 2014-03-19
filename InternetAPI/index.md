@@ -13,8 +13,9 @@ The Temenos Internet API demo service provides an example internet bank with Ret
 * [Accounts](http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibAcctDetailss\(\))
 
 List the internet users Accounts.
+
 <pre>
-Accept: application/atom+xml
+Accept: application/atom+xml	OR	Accept: application/hal+json 
 GET http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibAcctDetailss()
 </pre>
 
@@ -24,7 +25,7 @@ GET http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibAcctDetailss()
 List Today's transactions for an Account.
 
 <pre>
-Accept: application/atom+xml
+Accept: application/atom+xml	OR	Accept: application/hal+json
 GET http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibTxnsTodayLists()?$filter=AcctId eq {account_id}
 </pre>
 
@@ -34,7 +35,7 @@ GET http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibTxnsTodayLists()?$filter=
 List the internet users Account balances
 
 <pre>
-Accept: application/atom+xml
+Accept: application/atom+xml	OR	Accept: application/hal+json
 GET http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibAcctBalTodays()
 </pre>
 
@@ -44,7 +45,7 @@ GET http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibAcctBalTodays()
 List the internet users Beneficiaries
 
 <pre>
-Accept: application/atom+xml
+Accept: application/atom+xml	OR	Accept: application/hal+json
 GET http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibBeneficiaryUtils()
 </pre>
 
