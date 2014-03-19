@@ -20,7 +20,7 @@ The Temenos Internet API demo service provides an example internet bank with Ret
 
 The Temenos Legacy Internet User Interface is an servlet based application which uses client server connectivity architecture bases on JCA to directly communicate with T24 server. This interface provide functionality to perform Retail core banking functions including Demand Deposit Accounts, Funds Transfers and Messages for a Internet banking user.  
 
-[http://t24demo.cloudapp.net/tcib-iris/ARC-IB](http://t24demo.cloudapp.net/tcib-iris/ARC-IB)
+[http://t24demo.cloudapp.net/ARC-IB](http://t24demo.cloudapp.net/ARC-IB)
 
 ##### Credentials
 
@@ -39,7 +39,7 @@ The Temenos Core API demo service provides an example of internal banking employ
 
 The Temenos Core User Agent is a browser based user agent which consumes services hosted by [Temenos Core API](CoreAPI) along with the new fresh look and feel. This interface is for a Retail core banking employee for their day to day work
 
-[http://t24demo.cloudapp.net/tcib-iris/DashboardDynamic](http://t24demo.cloudapp.net/tcib-iris/DashboardDynamic)
+[http://t24demo.cloudapp.net/DashBoardDynamic](http://t24demo.cloudapp.net/DashBoardDynamic)
 
 ##### Credentials
 
@@ -49,7 +49,7 @@ The Temenos Core User Agent is a browser based user agent which consumes service
 
 The Temenos Legacy Core User interface is a servlet based application which uses client server connectivity architecture bases on JCA to directly communicate with T24 server. This interface is for a Retail core banking employee for their day to day work
 
-[http://t24demo.cloudapp.net/tcib-iris/BrowserWeb](http://t24demo.cloudapp.net/tcib-iris/BrowserWeb)
+[http://t24demo.cloudapp.net/BrowserWeb](http://t24demo.cloudapp.net/BrowserWeb)
 
 ##### Credentials
 
