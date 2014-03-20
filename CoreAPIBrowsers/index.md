@@ -19,5 +19,5 @@ Temenos has developed a very simple JavaScript based browser for OData:
 [Mike Kelly](https://github.com/mikekelly/hal-browser) has developed a very simple, but very good API browser for the hal+json media type:
 
 
-* [HAL Browser](http://t24demo.cloudapp.net/hothouse-iris/hal_browser.html#/hothouse-iris/Hothouse.svc/root)
+* [HAL Browser](http://t24demo.cloudapp.net/hothouse-iris/hal_browser.html#/hothouse-iris/Hothouse.svc/GB0010001/root)
 
