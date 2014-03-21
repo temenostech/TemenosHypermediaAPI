@@ -56,3 +56,77 @@ The Temenos Legacy Core User interface is a servlet based application which uses
 ##### Credentials
 
 - User - RETAILUSER, Password - 123456
+
+
+### Performing Funds Transfer
+
+Currently this functionality can be used from [Temenos Core API](CoreAPI). So lets assume a scenario where Bank has won a cash prize of £15 and bank is transferring money to its account. Bank TELLER would be performing following actions. 
+
+NOTE: This is an example of Funds Transfer and this can be done from One Customer account to another exactly the same way from the [Temenos Internet API](InternetAPI) which we are currently HACKING!
+
+To access the [Temenos Core API](CoreAPI) using credentials as UserName: SSOUSER1, Password: 123456
+
+- **Create a new deal**
+
+<pre>
+Accept: application/atom+xml
+POST http://t24demo.cloudapp.net/hothouse-iris/Hothouse.svc/FundsTransfer_Edges()/new
+</pre>
+
+
+- **Fill in the information**
+ 
+<pre>
+
+DebitAcctNo	: 61522	[Bank's Internal Account to payout prizes]
+DebitCurrency	: GBP
+DebitAmount 	: 15.0	[Make sure you remove the m:null="true" attribute from the node]
+CreditAcctNo	: 64637 [Bank Customer who won the prize]
+CreditCurrency	: GBP
+TransactionType	: AC
+            
+Accept: application/atom+xml
+POST http://t24demo.cloudapp.net/hothouse-iris/Hothouse.svc/FundsTransfer_Edges()
+</pre>
+
+- **Accept OVERRIDE**
+
+Above request will be responded with the WARNING message which is referred as OVERRIDE in T24. Accept the OVERRIDE by copying the value returned in Error_Messages->element->Code attribute and append into the following element present in the actual request and send it again to the collection; 
+
+<pre>
+FundsTransfer_Edge_OverrideMvGroup>element>Override>ACCT.UNAUTH.OD
+
+Accept: application/atom+xml
+POST http://t24demo.cloudapp.net/hothouse-iris/Hothouse.svc/FundsTransfer_Edges()
+</pre>
+
+- **Authorise A Deal**
+
+T24 has concept of **Four(4) Eyes Authorisation** where one person INPUT and other person with more access rights in the system should be able to authorise a deal. So access the following service with different credentials.
+User = SSOUSER2, Password = 123456 (Hacking from branch TELLER to Branch Manager let say) to see the UNAUTH record 
+
+<pre>
+Accept: application/atom+xml
+PUT http://t24demo.cloudapp.net/hothouse-iris/Hothouse.svc/FundsTransfer_EdgesIAuth('RefNo')
+Note: Update the RefNo with the actual reference
+</pre>
+
+Above will return the UNAUTH record from T24 with one special entry in the HEADER called 'ETag', copy the value and set it as follows; 
+
+<pre>
+If-Match: "ETag"
+Accept: application/atom+xml
+PUT http://t24demo.cloudapp.net/hothouse-iris/Hothouse.svc/FundsTransfer_EdgesIAuth('RefNo')/authorise
+Note: Update the RefNo with the actual reference
+</pre>
+
+- **Verify Transaction**
+
+Above will be authorise the deal and perform the real transaction within T24 which can then be seen on Customer account as recent transaction from [Temenos Internet API](InternetAPI) as normal. To access Customer transaction access the link as follows; 
+
+<pre>
+
+User: DAVIDB, Password: 123456
+Accept: application/atom+xml	OR	application/hal+json
+GET http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibTxnsTodayLists?$filter=AcctId eq 64637
+</pre>
