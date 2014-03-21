@@ -60,7 +60,7 @@ The Temenos Legacy Core User interface is a servlet based application which uses
 
 ### Performing Funds Transfer
 
-Currently this functionality can be used from [Temenos Core API](CoreAPI). So lets assume a scenario where Bank has won a cash prize of £15 and bank is transferring money to its account. Bank TELLER would be performing following actions. 
+Currently this functionality can be used from [Temenos Core API](CoreAPI). So lets assume a scenario where Bank Customer has won a cash prize of £15 and bank is transferring money to the his/her local currency account. Bank TELLER would be performing following actions. 
 
 NOTE: This is an example of Funds Transfer and this can be done from One Customer account to another exactly the same way from the [Temenos Internet API](InternetAPI) which we are currently HACKING!
 
@@ -78,7 +78,7 @@ POST http://t24demo.cloudapp.net/hothouse-iris/Hothouse.svc/FundsTransfer_Edges(
  
 <pre>
 
-DebitAcctNo	: 61522	[Bank's Internal Account to payout prizes]
+DebitAcctNo		: 61522	[Bank's Internal Account to payout prizes]
 DebitCurrency	: GBP
 DebitAmount 	: 15.0	[Make sure you remove the m:null="true" attribute from the node]
 CreditAcctNo	: 64637 [Bank Customer who won the prize]
@@ -91,10 +91,10 @@ POST http://t24demo.cloudapp.net/hothouse-iris/Hothouse.svc/FundsTransfer_Edges(
 
 - **Accept OVERRIDE**
 
-Above request will be responded with the WARNING message which is referred as OVERRIDE in T24. Accept the OVERRIDE by copying the value returned in Error_Messages->element->Code attribute and append into the following element present in the actual request and send it again to the collection; 
+Above request will be responded with the WARNING message which is referred as OVERRIDE in T24. Accept the OVERRIDE by copying the value returned in 'Error_Messages > element > Code' attribute and append into the following element present in the actual request and send it again to the collection; 
 
 <pre>
-FundsTransfer_Edge_OverrideMvGroup>element>Override>ACCT.UNAUTH.OD
+FundsTransfer_Edge_OverrideMvGroup > element > Override > ACCT.UNAUTH.OD
 
 Accept: application/atom+xml
 POST http://t24demo.cloudapp.net/hothouse-iris/Hothouse.svc/FundsTransfer_Edges()
@@ -107,9 +107,9 @@ User = SSOUSER2, Password = 123456 (Hacking from branch TELLER to Branch Manager
 
 <pre>
 Accept: application/atom+xml
-PUT http://t24demo.cloudapp.net/hothouse-iris/Hothouse.svc/FundsTransfer_EdgesIAuth('RefNo')
-Note: Update the RefNo with the actual reference
+GET http://t24demo.cloudapp.net/hothouse-iris/Hothouse.svc/FundsTransfer_EdgesIAuth('RefNo')
 </pre>
+Note: Update the RefNo with the actual reference
 
 Above will return the UNAUTH record from T24 with one special entry in the HEADER called 'ETag', copy the value and set it as follows; 
 
@@ -117,8 +117,8 @@ Above will return the UNAUTH record from T24 with one special entry in the HEADE
 If-Match: "ETag"
 Accept: application/atom+xml
 PUT http://t24demo.cloudapp.net/hothouse-iris/Hothouse.svc/FundsTransfer_EdgesIAuth('RefNo')/authorise
-Note: Update the RefNo with the actual reference
 </pre>
+Note: Update the RefNo with the actual reference
 
 - **Verify Transaction**
 
