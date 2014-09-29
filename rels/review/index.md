@@ -12,7 +12,8 @@ http://temenostech.temenos.com/rels/review
 GET
 
 ## description
-TBA
+This type of resource us designed to provide a latest read only copy of the data to user like [see](see) but `review` also updates the audit fields of the record in T24 for auditing.
+
 
 ## uri templates
 The User-Agent MUST replace every occurrence of the template parameters with a value before issuing a request for the resource.  See URI Templates [http://tools.ietf.org/html/rfc6570](http://tools.ietf.org/html/rfc6570)
