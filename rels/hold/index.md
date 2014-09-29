@@ -14,7 +14,7 @@ POST
 ## description
 This type of resource is designed to provide a user with the ability to store `new` or modified entries into hold status in T24.
 
-User should be able to retrieve the saved data at any point of time afterwards for modification and should be able to perform normal commit on it using [input](input) resource. 
+User should be able to retrieve the saved data at any point of time afterwards for modification and should be able to perform normal commit on it using [input](../input) resource. 
 
 
 ## uri templates

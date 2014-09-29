@@ -12,7 +12,7 @@ http://temenostech.temenos.com/rels/validate
 POST
 
 ## description
-This type of resource is designed to provide user with the ability to validate inputable entry with T24 before it tries to [input](input)
+This type of resource is designed to provide user with the ability to validate input-able entry with T24 before it tries to use [input](../input)
 
 This resource would return validation errors or overrides if there are any else would return fully populated entry. 
 

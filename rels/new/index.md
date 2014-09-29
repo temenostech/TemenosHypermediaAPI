@@ -12,7 +12,7 @@ http://temenostech.temenos.com/rels/new
 POST
 
 ## description
-This type of resource is designed to provide the next available ID for a T24 Application such as Customers or FundsTransfers.  When entering deals into T24 it would be quite onerous to expect the user to invent a new ID for each deal; it is therefore common practice for T24 Applications to provide generated IDs that can be used for the new deal, or thrown away without ever being used.  This `new` resource provides that capability by returning a populated or partially populated entity along with one or more links that could then be used to `input` or `hold` the new deal. 
+This type of resource is designed to provide the next available ID for a T24 Application such as Customers or FundsTransfers.  When entering deals into T24 it would be quite onerous to expect the user to invent a new ID for each deal; it is therefore common practice for T24 Applications to provide generated IDs that can be used for the new deal, or thrown away without ever being used.  This `new` resource provides that capability by returning a populated or partially populated entity along with one or more links that could then be used to [input](../input) or [hold](../hold) the new deal. 
 
 
 ## uri templates

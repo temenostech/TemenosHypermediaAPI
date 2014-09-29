@@ -12,7 +12,7 @@ http://temenostech.temenos.com/rels/restore
 POST
 
 ## description
-This resource is designed to provide user a capability to restore [reverse](reverse) transaction from T24. 
+This resource is designed to provide user a capability to restore [reverse](../reverse) transaction from T24. 
  
 
 ## uri templates

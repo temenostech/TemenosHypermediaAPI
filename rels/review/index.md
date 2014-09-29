@@ -12,7 +12,7 @@ http://temenostech.temenos.com/rels/review
 GET
 
 ## description
-This type of resource us designed to provide a latest read only copy of the data to user like [see](see) but `review` also updates the audit fields of the record in T24 for auditing.
+This type of resource us designed to provide a latest read only copy of the data to user like [see](../see) but `review` also updates the audit fields of the record in T24 for auditing.
 
 
 ## uri templates

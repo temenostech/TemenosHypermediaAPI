@@ -12,7 +12,7 @@ http://temenostech.temenos.com/rels/reverse
 POST
 
 ## description
-This resource is designed to provide user a capability to reverse a Live transaction from T24. This is equivalent of delete in T24
+This resource is designed to provide user a capability to reverse a Live transaction from T24 and move to history. Once the record is in Live state in T24 user can not simply delete that, it can only be `reversed` which is equivalent of `delete` in T24
  
 
 ## uri templates

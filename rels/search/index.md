@@ -12,7 +12,7 @@ http://temenostech.temenos.com/rels/search
 GET
 
 ## description
-This resource is available on [root](root) resource and user agent can use this service call as a universal search. Search can be configured on all resources. This resource will fetch data from search able database instead of transaction database. IRIS uses Solr as its search engine 
+This resource is available on [root](../root) resource and user agent can use this service call as a universal search. Search can be configured on all resources. This resource will fetch data from search able database instead of transaction database. IRIS uses Solr as its search engine 
 
 
 ## uri templates

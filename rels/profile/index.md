@@ -12,7 +12,7 @@ http://temenostech.temenos.com/rels/profile
 GET
 
 ## description
-This resource is available on [root](root) resource and user agent is expected to call this resource to load user profile. 
+This resource is available on [root](../root) resource and user agent is expected to call this resource to load user profile. 
 
 
 ## uri templates

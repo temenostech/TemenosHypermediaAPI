@@ -12,9 +12,9 @@ http://temenostech.temenos.com/rels/paste
 POST
 
 ## description
-This type of resource is designed to expose T24 clipboard functionality to REST user agent. User agent can call this resource to retrieve data which was copied using [copy](copy) resource
+This type of resource is designed to expose T24 clipboard functionality to REST user agent. User agent can call this resource to retrieve data which was copied using [copy](../copy) resource
 
-This resource is equivalent of [new](new) resource where it will generate the new Id if applicable, default values with an addition to fill/overwrite Application/Version entity properties with copied data
+This resource is equivalent of [new](../new) resource where it will generate the new Id if applicable, default values with an addition to fill/overwrite Application/Version entity properties with copied data
 
 
 ## uri templates

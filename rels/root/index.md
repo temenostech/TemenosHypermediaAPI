@@ -12,7 +12,7 @@ http://temenostech.temenos.com/rels/root
 GET
 
 ## description
-This is considered as a first service to be called from user agent to get the links available for rest of the interaction. This service will offer links to call OData [ServiceDocument](ServiceDocument), [profile](profile), [search](search) and [menu](menu)
+This is considered as a first service to be called from user agent to get the links available for rest of the interaction. This service will offer links to call OData [ServiceDocument](../ServiceDocument), [profile](../profile), [search](../search) and [menu](../menu)
 
 
 ## uri templates
