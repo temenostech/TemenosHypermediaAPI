@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # delete
 
 ## fqn
-http://www.temenos.com/rels/delete
+http://temenostech.temenos.com/rels/delete
 
 ## methods
 DELETE
@@ -20,14 +20,13 @@ The User-Agent MUST replace every occurrence of the template parameters with a v
 
 None
 
-
 ## example
 An atom representation of a link to the delete Customer resource
 <pre>
-&lt;link rel="http://www.temenos.com/rels/delete" type="application/atom+xml;type=entry" title="Delete Customer" href="Customers('123')"/&gt;
+&lt;link rel="http://temenostech.temenos.com/rels/delete" type="application/atom+xml;type=entry" title="Delete Customer" href="Customers('123')/delete"/&gt;
 </pre>
 
 The basic structure of the http request is as follows:
 <pre>
-DELETE /t24/Customers('123') HTTP/1.1
+DELETE /T24.svc/Customers('123')/delete HTTP/1.1
 </pre>

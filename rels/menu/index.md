@@ -6,13 +6,13 @@ title: Temenos API Documentation
 # menu
 
 ## fqn
-http://www.temenos.com/rels/menu
+http://temenostech.temenos.com/rels/menu
 
 ## methods
 GET
 
 ## description
-This type of resource is designed to provide a user navigation capability.  This `menu` resource provides that capability by returning an entity with zero or more links that could then be used to perform any of the various requests to T24. 
+This type of resource is designed to provide a user navigation capability.  `menu` resource provides that capability by returning an entity with zero or more links that could then be used to perform any of the various requests to T24. 
 
 
 ## uri templates
@@ -22,12 +22,12 @@ None
 
 
 ## example
-An atom representation of a link to the user menu resource
+An atom representation of a link to the user `menu` resource
 <pre>
-&lt;link href="usermenu" rel="http://www.temenos.com/rels/menu" type="application/atom+xml;type=entry" title="User Menu" hreflang="en" length="0" /&gt;
+&lt;link href="usermenu" rel="http://temenostech.temenos.com/rels/menu" type="application/atom+xml;type=entry" title="User Menu" hreflang="en" length="0" /&gt;
 </pre>
 
 The basic structure of the http request is as follows:
 <pre>
-GET /t24/usermenu HTTP/1.1
+GET /T24.svc/usermenu HTTP/1.1
 </pre>

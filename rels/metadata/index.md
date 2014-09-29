@@ -6,7 +6,7 @@ title: Temenos API Documentation
 #metadata
 
 ## fqn
-http://www.temenos.com/rels/metadata
+http://temenostech.temenos.com/rels/metadata
 
 ## methods
 POST
@@ -47,11 +47,11 @@ None
 ## example
 An atom representation of a link to the new FundsTransfer resource
 <pre>
-&lt;link rel="http://www.temenos.com/rels/metadata" type="application/atom+xml;type=entry" title="T24FieldMetadata" href="T24FieldMetadata"/&gt;
+&lt;link rel="http://temenostech.temenos.com/rels/metadata" type="application/atom+xml;type=entry" title="runtime metadata" href="verFundsTransfer_News()/metadata"/&gt;
 </pre>
 
 The basic structure of the http request is as follows:
 <pre>
-POST /t24/T24FieldMetadata HTTP/1.1
+POST /T24.svc/verFundsTransfer_News()/metadata HTTP/1.1
 Content-Length: 0
 </pre>

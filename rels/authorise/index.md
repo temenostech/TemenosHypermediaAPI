@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # authorise
 
 ## fqn
-http://www.temenos.com/rels/authorise
+http://temenostech.temenos.com/rels/authorise
 
 ## methods
 POST
@@ -20,14 +20,13 @@ The User-Agent MUST replace every occurrence of the template parameters with a v
 
 None
 
-
 ## example
 An atom representation of a link to the authorise Customer resource
 <pre>
-&lt;link rel="http://www.temenos.com/rels/authorise" type="application/atom+xml;type=entry" title="Authorise Customer" href="CustomersIAuth('100226')"/&gt;
+&lt;link rel="http://temenostech.temenos.com/rels/authorise" type="application/atom+xml;type=entry" title="Authorise Customer" href="CustomersIAuth('100226')/authorise"/&gt;
 </pre>
 
 The basic structure of the http request is as follows:
 <pre>
-POST /t24/CustomersIAuth('100226') HTTP/1.1
+POST /T24.svc/CustomersIAuth('100226')/authorise HTTP/1.1
 </pre>

@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # new
 
 ## fqn
-http://www.temenos.com/rels/new
+http://temenostech.temenos.com/rels/new
 
 ## methods
 POST
@@ -18,17 +18,17 @@ This type of resource is designed to provide the next available ID for a T24 App
 ## uri templates
 The User-Agent MUST replace every occurrence of the template parameters with a value before issuing a request for the resource.  See URI Templates [http://tools.ietf.org/html/rfc6570](http://tools.ietf.org/html/rfc6570)
 
-None
+`Id`	: Query parameter containing Entity Id field which can be passed if user agent user would like to override auto id generation. `MANDATORY` if Application/Version DOES NOT support AUTO.ID else it is `OPTIONAL`
 
 
 ## example
 An atom representation of a link to the new FundsTransfer resource
 <pre>
-&lt;link rel="http://www.temenos.com/rels/new" type="application/atom+xml;type=entry" title="New FundsTransfer" href="FundsTransfer/new"/&gt;
+&lt;link rel="http://temenostech.temenos.com/rels/new" type="application/atom+xml;type=entry" title="New FundsTransfer" href="FundsTransfers()/new*{?RefNo=FT00100001}*"/&gt;
 </pre>
 
 The basic structure of the http request is as follows:
 <pre>
-POST /t24/FundsTransfer/new HTTP/1.1
+POST /T24.svc/FundsTransfers()/new HTTP/1.1
 Content-Length: 0
 </pre>
