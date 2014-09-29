@@ -12,7 +12,7 @@ http://temenostech.temenos.com/rels/copy
 POST
 
 ## description
-This type of resource is designed to expose T24 clipboard functionality to REST user agent. User agent can call this resource to save its contract which it can [paste](paste) later to populate new contracts quickly.
+This type of resource is designed to expose T24 clipboard functionality to REST user agent. User agent can call this resource to save its contract which it can [paste](../paste) later to populate new contracts quickly.
 
 
 ## uri templates
