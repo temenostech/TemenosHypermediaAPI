@@ -12,7 +12,9 @@ http://temenostech.temenos.com/rels/contract
 GET
 
 ## description
-TBA
+This type of resource is designed to provide functionality required for each Application/Version in T24 by supplying links to all possible resources (if applicable) like New Deal, List of Live Record, List of IAuth Records etc upon launching the application/version. In other terms it will act as landing page for each Application/Version in T24.
+
+This resource will be accessible on all T24 Application/Version by default
 
 
 ## uri templates
