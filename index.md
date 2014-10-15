@@ -6,16 +6,15 @@ title: Temenos API
 
 Temenos is pleased to offer you access to the Temenos Internet API (see [Temenos Connect Internet](http://www.temenos.com/en/products-and-services/front-end--channels/temenos-connect/temenos-connect-internet/)) and the Temenos Core API.  Built on T24 and the [IRIS](http://www.rimdsl.org) interaction framework, these Internet and Core endpoints support both Data and Interaction Services.
 
+### Temenos Connect Mobile Application 
 
+The Temenos Connect Mobile API provides internet services to the Temenos Connect (mobile user agent) application including Direct Debits, Funds Transfers, Standing Orders and Messages.  
 
-### Temenos Internet API
+[http://t24demo.cloudapp.net/retail-iris/TcmbRetail.svc/](http://t24demo.cloudapp.net/retail-iris/TcmbRetail.svc/)
 
-The Temenos Internet API demo service provides an example internet bank with Retail core banking functions including Demand Deposit Accounts, Funds Transfers and Messages.  
+* [Documentation](TCMobileAPI)
+* [API Browsers](TCMobileAPIBrowsers)
 
-[http://t24demo.cloudapp.net/tcib-iris/](http://t24demo.cloudapp.net/tcib-iris/)
-
-* [Documentation](InternetAPI)
-* [API Browsers](InternetAPIBrowsers)
 
 #### Temenos Legacy Internet User Interface
 
