@@ -10,10 +10,10 @@ Temenos is pleased to offer you access to the Temenos Internet API (see [Temenos
 
 The Temenos Connect Mobile API provides internet services to the Temenos Connect (mobile user agent) application including Direct Debits, Funds Transfers, Standing Orders and Messages.  
 
-[http://t24demo.cloudapp.net/retail-iris/TcmbRetail.svc/](http://t24demo.cloudapp.net/retail-iris/TcmbRetail.svc/)
+[http://t24demo.cloudapp.net/TCMBCommon-iris/TcmbCommon.svc/](http://t24demo.cloudapp.net/TCMBCommon-iris/TcmbCommon.svc/)
 
-* [Documentation](TCMobileAPI)
-* [API Browsers](TCMobileAPIBrowsers)
+* [Documentation](InternetAPI)
+* [API Browsers](InternetAPIBrowsers)
 
 
 #### Temenos Legacy Internet User Interface

@@ -22,7 +22,7 @@ Our Hypermedia services are designed to be self describing and documented with d
 
 If you need a type system you can use the OData type information for EntitySet's (collections), Entity's (items), and Property's (fields) through the $metadata endpoint.
 
-* [Hothouse.svc/$metadata](http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/$metadata)
+* [Hothouse.svc/$metadata](http://t24demo.cloudapp.net/TCMBCommon-iris/TcmbCommon.svc/$metadata)
 
 
 ### Media types (supporting links)

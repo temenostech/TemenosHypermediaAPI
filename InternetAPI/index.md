@@ -10,43 +10,43 @@ The Temenos Internet API demo service provides an example internet bank with Ret
 
 ### Functional
 
-* [Accounts](http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibAcctDetailss\(\))
+* [Accounts](http://t24demo.cloudapp.net/TCMBCommon-iris/TcmbCommon.svc/TcibAcctDetailss\(\))
 
 List the internet users Accounts.
 
 <pre>
 Accept: application/atom+xml	OR	Accept: application/hal+json 
-GET http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibAcctDetailss()
+GET http://t24demo.cloudapp.net/TCMBCommon-iris/TcmbCommon.svc/TcibAcctDetailss()
 </pre>
 
 
-* [Today's Transactions for account 64629 (ANTHONYB)](http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibTxnsTodayLists\(\)?$filter=AcctId%20eq%2064629)
+* [Today's Transactions for account 64629 (ANTHONYB)](http://t24demo.cloudapp.net/TCMBCommon-iris/TcmbCommon.svc/TcibTxnsTodayLists\(\)?$filter=AcctId%20eq%2064629)
 
 List Today's transactions for an Account.
 
 <pre>
 Accept: application/atom+xml	OR	Accept: application/hal+json
-GET http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibTxnsTodayLists()?$filter=AcctId eq {account_id}
+GET http://t24demo.cloudapp.net/TCMBCommon-iris/TcmbCommon.svc/TcibTxnsTodayLists()?$filter=AcctId eq {account_id}
 </pre>
 
 
-* [Account Balances](http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibAcctBalTodays\(\))
+* [Account Balances](http://t24demo.cloudapp.net/TCMBCommon-iris/TcmbCommon.svc/TcibAcctBalTodays\(\))
 
 List the internet users Account balances
 
 <pre>
 Accept: application/atom+xml	OR	Accept: application/hal+json
-GET http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibAcctBalTodays()
+GET http://t24demo.cloudapp.net/TCMBCommon-iris/TcmbCommon.svc/TcibAcctBalTodays()
 </pre>
 
 
-* [Beneficiaries](http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibBeneficiaryUtils\(\))
+* [Beneficiaries](http://t24demo.cloudapp.net/TCMBCommon-iris/TcmbCommon.svc/TcibBeneficiaryUtils\(\))
 
 List the internet users Beneficiaries
 
 <pre>
 Accept: application/atom+xml	OR	Accept: application/hal+json
-GET http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibBeneficiaryUtils()
+GET http://t24demo.cloudapp.net/TCMBCommon-iris/TcmbCommon.svc/TcibBeneficiaryUtils()
 </pre>
 
 * [Payments]()
@@ -118,7 +118,7 @@ Above will be authorise the deal and perform the real transaction within T24 whi
 
 User: DAVIDB, Password: 123456
 Accept: application/atom+xml	OR	application/hal+json
-GET http://t24demo.cloudapp.net/tcib-iris/TCIB.svc/TcibTxnsTodayLists?$filter=AcctId eq 64637
+GET http://t24demo.cloudapp.net/TCMBCommon-iris/TcmbCommon.svc/TcibTxnsTodayLists?$filter=AcctId eq 64637
 </pre>
 
 
