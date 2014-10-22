@@ -20,26 +20,6 @@ GET http://t24demo.cloudapp.net/TCMBCommon-iris/TcmbCommon.svc/TcibAcctDetailss(
 </pre>
 
 
-* [Today's Transactions for account 64629 (ANTHONYB)](http://t24demo.cloudapp.net/TCMBCommon-iris/TcmbCommon.svc/TcibTxnsTodayLists\(\)?$filter=AcctId%20eq%2064629)
-
-List Today's transactions for an Account.
-
-<pre>
-Accept: application/atom+xml	OR	Accept: application/hal+json
-GET http://t24demo.cloudapp.net/TCMBCommon-iris/TcmbCommon.svc/TcibTxnsTodayLists()?$filter=AcctId eq {account_id}
-</pre>
-
-
-* [Account Balances](http://t24demo.cloudapp.net/TCMBCommon-iris/TcmbCommon.svc/TcibAcctBalTodays\(\))
-
-List the internet users Account balances
-
-<pre>
-Accept: application/atom+xml	OR	Accept: application/hal+json
-GET http://t24demo.cloudapp.net/TCMBCommon-iris/TcmbCommon.svc/TcibAcctBalTodays()
-</pre>
-
-
 * [Beneficiaries](http://t24demo.cloudapp.net/TCMBCommon-iris/TcmbCommon.svc/TcibBeneficiaryUtils\(\))
 
 List the internet users Beneficiaries
@@ -49,18 +29,18 @@ Accept: application/atom+xml	OR	Accept: application/hal+json
 GET http://t24demo.cloudapp.net/TCMBCommon-iris/TcmbCommon.svc/TcibBeneficiaryUtils()
 </pre>
 
-* [Payments]()
+* [Payments](http://t24demo.cloudapp.net/TCMBCommon-iris/TcmbCommon.svc/FundsTransfer_Tcibs\(\))
 
-The following example demonstrates how to make a payment using the [Temenos Core API](/CoreAPI) - a Funds Transfer from One Customer account to another using the [Temenos Internet API](/InternetAPI) can be performed in exactly the same way.
+The following example demonstrates how to make a payment - i.e. a Funds Transfer from One Customer account to another.
 
-Lets assume a scenario where Bank Customer has won a cash prize of £15 and bank is transferring money to the his/her local currency account. Bank TELLER would be performing following actions. 
+Lets assume a scenario where we want to transfer £15 in local currency account.
 
 
 - **Create a new deal**
 
 <pre>
 Accept: application/atom+xml
-POST http://t24demo.cloudapp.net/hothouse-iris/Hothouse.svc/FundsTransfer_Edges()/new
+POST http://t24demo.cloudapp.net/TCMBCommon-iris/TcmbCommon.svc/FundsTransfer_Tcibs()/new
 </pre>
 
 
@@ -68,57 +48,27 @@ POST http://t24demo.cloudapp.net/hothouse-iris/Hothouse.svc/FundsTransfer_Edges(
  
 <pre>
 
-DebitAcctNo		: 61522	[Bank's Internal Account to payout prizes]
+DebitAcctNo	: 61522	[Our Account to pay from]
 DebitCurrency	: GBP
 DebitAmount 	: 15.0	[Make sure you remove the m:null="true" attribute from the node]
-CreditAcctNo	: 64637 [Bank Customer who won the prize]
+CreditAcctNo	: 64637 [Our friends Account to pay to]
 CreditCurrency	: GBP
 TransactionType	: AC
             
 Accept: application/atom+xml
-POST http://t24demo.cloudapp.net/hothouse-iris/Hothouse.svc/FundsTransfer_Edges()
+POST http://t24demo.cloudapp.net/TCMBCommon-iris/TcmbCommon.svc/FundsTransfer_Tcibs()
 </pre>
 
-- **Accept OVERRIDE**
-
-Above request will be responded with the WARNING message which is referred as OVERRIDE in T24. Accept the OVERRIDE by copying the value returned in 'Error_Messages > element > Code' attribute and append into the following element present in the actual request and send it again to the collection; 
-
-<pre>
-FundsTransfer_Edge_OverrideMvGroup > element > Override > ACCT.UNAUTH.OD
-
-Accept: application/atom+xml
-POST http://t24demo.cloudapp.net/hothouse-iris/Hothouse.svc/FundsTransfer_Edges()
-</pre>
-
-- **Authorise A Deal**
-
-T24 has concept of **Four(4) Eyes Authorisation** where one person INPUT and other person with more access rights in the system should be able to authorise a deal. So access the following service with different credentials.
-User = SSOUSER2, Password = 123456 (Hacking from branch TELLER to Branch Manager let say) to see the UNAUTH record 
-
-<pre>
-Accept: application/atom+xml
-GET http://t24demo.cloudapp.net/hothouse-iris/Hothouse.svc/FundsTransfer_EdgesIAuth('RefNo')
-</pre>
-Note: Update the RefNo with the actual reference
-
-Above will return the UNAUTH record from T24 with one special entry in the HEADER called 'ETag', copy the value and set it as follows; 
-
-<pre>
-If-Match: "ETag"
-Accept: application/atom+xml
-PUT http://t24demo.cloudapp.net/hothouse-iris/Hothouse.svc/FundsTransfer_EdgesIAuth('RefNo')/authorise
-</pre>
-Note: Update the RefNo with the actual reference
 
 - **Verify Transaction**
 
-Above will be authorise the deal and perform the real transaction within T24 which can then be seen on Customer account as recent transaction from [Temenos Internet API](InternetAPI) as normal. To access Customer transaction access the link as follows; 
+Above transaction will be automatically authorised and the results can then be seen on the recent transactions from [Temenos Internet API](InternetAPI) as normal. e.g. To access the account transaction
 
 <pre>
 
 User: DAVIDB, Password: 123456
 Accept: application/atom+xml	OR	application/hal+json
-GET http://t24demo.cloudapp.net/TCMBCommon-iris/TcmbCommon.svc/TcibTxnsTodayLists?$filter=AcctId eq 64637
+GET http://t24demo.cloudapp.net/TCMBCommon-iris/TcmbCommon.svc/TcibLastNTxnsRecentListss?$filter=AcctId eq 64637
 </pre>
 
 
