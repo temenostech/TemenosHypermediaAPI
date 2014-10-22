@@ -6,7 +6,7 @@ title: Internet API
 
 The Temenos Internet API demo service provides an example internet bank with Retail core banking functions including Demand Deposit Accounts, Funds Transfers and Messages.
 
-[http://t24demo.cloudapp.net/tcib-iris/](http://t24demo.cloudapp.net/tcib-iris/)
+[http://t24demo.cloudapp.net/TCMBCommon-iris/](http://t24demo.cloudapp.net/TCMBCommon-iris/)
 
 ### Functional
 

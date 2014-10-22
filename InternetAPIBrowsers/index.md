@@ -11,7 +11,7 @@ API Browsers help a developer discover an API's features and learn how to call t
 
 Temenos has developed a very simple JavaScript based browser for OData:
 
-* [ODataJS Browser](http://t24demo.cloudapp.net/tcib-iris/)
+* [ODataJS Browser](http://t24demo.cloudapp.net/TCMBCommon-iris/)
 
 
 ### HAL Browser
@@ -19,11 +19,11 @@ Temenos has developed a very simple JavaScript based browser for OData:
 [Mike Kelly](https://github.com/mikekelly/hal-browser) has developed a very simple, but very good API browser for the hal+json media type:
 
 
-* [HAL Browser](http://t24demo.cloudapp.net/tcib-iris/hal_browser.html#/tcib-iris/TCIB.svc/root)
+* [HAL Browser](http://t24demo.cloudapp.net/TCMBCommon-iris/hal_browser.html#/tcib-iris/TCIB.svc/root)
 
 
 ### Swagger
 
 The very clever guys as Reverb Technologies have have [developed](https://github.com/wordnik/swagger-ui) a standardised approach to browsing REST services:
 
-* [Swagger UI](http://t24demo.cloudapp.net/tcib-iris/swagger.jsp)
+* [Swagger UI](http://t24demo.cloudapp.net/TCMBCommon-iris/swagger.jsp)
