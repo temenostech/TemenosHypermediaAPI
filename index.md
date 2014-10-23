@@ -4,7 +4,7 @@ title: Temenos API
 ---
 ## Welcome
 
-Temenos is pleased to offer you access to the Temenos Internet API (see [Temenos Connect Internet](http://www.temenos.com/en/products-and-services/front-end--channels/temenos-connect/temenos-connect-internet/)) and the Temenos Core API.  Built on T24 and the [IRIS](http://www.rimdsl.org) interaction framework, these Internet and Core endpoints support both Data and Interaction Services.
+Temenos is pleased to offer you access to the Temenos Internet API (see [Temenos Connect Internet](http://www.temenos.com/en/products-and-services/front-end-channels/temenos-connect/#)) and the Temenos Core API.  Built on T24 and the [IRIS](http://www.rimdsl.org) interaction framework, these Internet and Core endpoints support both Data and Interaction Services.
 
 ### Temenos Connect Mobile Application 
 
