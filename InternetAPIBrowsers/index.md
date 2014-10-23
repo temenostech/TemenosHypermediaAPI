@@ -19,7 +19,7 @@ Temenos has developed a very simple JavaScript based browser for OData:
 [Mike Kelly](https://github.com/mikekelly/hal-browser) has developed a very simple, but very good API browser for the hal+json media type:
 
 
-* [HAL Browser](http://t24demo.cloudapp.net/TCMBCommon-iris/hal_browser.html#/tcib-iris/TCIB.svc/root)
+* [HAL Browser](http://t24demo.cloudapp.net/TCMBCommon-iris/hal_browser.html#/TCMBCommon-iris/TcmbCommon.svc/)
 
 
 ### Swagger
