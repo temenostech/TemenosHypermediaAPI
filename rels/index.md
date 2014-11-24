@@ -17,7 +17,7 @@ title: Temenos API Documentation
 
 [metadata](metadata)
 
-[enrichments](enrichments)
+[enrichment](enrichment)
 
 [contract](contract)
 
