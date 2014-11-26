@@ -35,6 +35,8 @@ title: Temenos API Documentation
 
 [validate](validate)
 
+[verify](verify)
+
 [authorise](authorise)
   
 [hold](hold)

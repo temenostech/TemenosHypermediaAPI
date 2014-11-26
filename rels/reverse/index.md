@@ -9,7 +9,7 @@ title: Temenos API Documentation
 http://temenostech.temenos.com/rels/reverse
 
 ## methods
-POST
+POST | PUT
 
 ## description
 This resource is designed to provide user a capability to reverse a Live transaction from T24 and move to history. Once the record is in Live state in T24 user can not simply delete that, it can only be `reversed` which is equivalent of `delete` in T24
@@ -31,5 +31,5 @@ The basic structure of the http request is as follows:
 
 Request
 <pre>
-POST /T24.svc/Customers('12345')/reverse HTTP/1.1
+POST|PUT /T24.svc/Customers('12345')/reverse HTTP/1.1
 </pre>
