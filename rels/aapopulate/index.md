@@ -32,3 +32,11 @@ The basic structure of the http request is as follows:
 <pre>
 POST /T24.svc/verAaArrangementActivity_AaNews('AA123456')/aapopulate HTTP/1.1
 </pre>
+
+OR
+
+To populate a single Forward Dated TAB in AAA deal for access URL;
+
+<pre>
+POST /T24.svc/verAaArrangementActivity_AaNews('AA123456')/aapopulate?populateForwardDateTab=true HTTP/1.1
+</pre>
