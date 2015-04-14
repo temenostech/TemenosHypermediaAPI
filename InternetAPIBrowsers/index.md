@@ -11,7 +11,7 @@ API Browsers help a developer discover an API's features and learn how to call t
 
 Temenos has developed a very simple JavaScript based browser for OData:
 
-* [ODataJS Browser](http://t24demo.cloudapp.net/TCMBCommon-iris/)
+* [ODataJS Browser](http://tcmb-demo.cloudapp.net/TCMBCommon-iris/)
 
 
 ### HAL Browser
@@ -19,7 +19,7 @@ Temenos has developed a very simple JavaScript based browser for OData:
 [Mike Kelly](https://github.com/mikekelly/hal-browser) has developed a very simple, but very good API browser for the hal+json media type:
 
 
-* [HAL Browser](http://t24demo.cloudapp.net/TCMBCommon-iris/hal_browser.html#/TCMBCommon-iris/TcmbCommon.svc/)
+* [HAL Browser](http://tcmb-demo.cloudapp.net/TCMBCommon-iris/hal_browser.html#/TCMBCommon-iris/TCMBCommon.svc/GB0010001/)
 
 
 ### Swagger
