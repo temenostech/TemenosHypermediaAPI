@@ -13,12 +13,15 @@ The Temenos Connect Mobile API provides internet services to the Temenos Connect
 [http://tcmb-demo.cloudapp.net/TCMBCommon-iris/TCMBCommon.svc/GB0010001/](http://tcmb-demo.cloudapp.net/TCMBCommon-iris/TCMBCommon.svc/GB0010001/)
 
 * [Documentation](InternetAPI)
+<!---
 * [API Browsers](InternetAPIBrowsers)
+-->
 
 ##### Credentials
 
 - User - DAVIDB, Password - 123456
-
+- User - ANTHONYB, Password - 123456
+<!---
 #### Temenos Legacy Internet User Interface
 
 The Temenos Legacy Internet User Interface is an servlet based application which uses client server connectivity architecture bases on JCA to directly communicate with T24 server. This interface provide functionality to perform Retail core banking functions including Demand Deposit Accounts, Funds Transfers and Messages for a Internet banking user.  
@@ -59,3 +62,4 @@ The Temenos Legacy Core User interface is a servlet based application which uses
 
 - User - RETAILUSER, Password - 123456
 
+-->
