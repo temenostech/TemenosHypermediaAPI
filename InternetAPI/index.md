@@ -16,7 +16,7 @@ List the internet users Accounts.
 
 <pre>
 Accept: application/atom+xml	OR	Accept: application/hal+json 
-GET http://tcmb-demo.cloudapp.net/TCMBCommon-iris/TCMBCommon.svc/enqTcibAcctDetailss()
+GET http://tcmb-demo.cloudapp.net/TCMBCommon-iris/TCMBCommon.svc/GB0010001/enqTcibAcctDetailss()
 </pre>
 
 
@@ -26,7 +26,7 @@ List the internet users Beneficiaries
 
 <pre>
 Accept: application/atom+xml	OR	Accept: application/hal+json
-GET http://tcmb-demo.cloudapp.net/TCMBCommon-iris/TCMBCommon.svc/enqTcibBeneficiaryUtils()
+GET http://tcmb-demo.cloudapp.net/TCMBCommon-iris/TCMBCommon.svc/GB0010001/enqTcibBeneficiaryUtils()
 </pre>
 
 * [Payments](http://tcmb-demo.cloudapp.net/TCMBCommon-iris/TCMBCommon.svc/GB0010001/verFundsTransfer_Tcibs\(\))
