@@ -16,5 +16,5 @@ The Temenos Connect Mobile API provides internet services to the Temenos Connect
 
 ##### Credentials
 
-- User - DAVIDB, Password - 123456
-- User - ANTHONYB, Password - 123456
+- User - ROLFGERLINGTC, Password - 123456
+- User - ANTHONYBTC, Password - 123456

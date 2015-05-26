@@ -86,9 +86,6 @@ Temenos Internet API supports a few types of service layouts and description for
 
 Temenos Internet API
 
-* User – ANTHONYB, Password – 123456
-* User – DAVIDB, Password – 123456
-
-
-
+* User – ROLFGERLINGTC, Password – 123456
+* User – ANTHONYBTC, Password – 123456
 
