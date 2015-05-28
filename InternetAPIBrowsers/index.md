@@ -26,4 +26,4 @@ Temenos has developed a very simple JavaScript based browser for OData:
 
 The very clever guys as Reverb Technologies have have [developed](https://github.com/wordnik/swagger-ui) a standardised approach to browsing REST services:
 
-* [Swagger UI](http://t24demo.cloudapp.net/TCMBCommon-iris/swagger.jsp)
+* [Swagger UI](http://tcmb-demo.cloudapp.net/TCMBCommon-iris/swagger.jsp)
