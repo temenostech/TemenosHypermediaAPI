@@ -62,7 +62,7 @@ POST http://tcmb-demo.cloudapp.net/TCMBCommon-iris/TCMBCommon.svc/GB0010001/verF
 
 - **Verify Transaction**
 
-Above transaction will be automatically authorised and the results can then be seen on the recent transactions from [Temenos Internet API](InternetAPI) as normal. e.g. To access the account transaction
+Above transaction will be automatically authorised and the results can then be seen on the recent transactions from [Temenos Internet API](index.md) as normal. e.g. To access the account transaction
 
 <pre>
 
