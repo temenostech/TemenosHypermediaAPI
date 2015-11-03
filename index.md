@@ -12,7 +12,7 @@ The Temenos Connect Mobile API provides internet services to the Temenos Connect
 
 [http://tcmb-demo.cloudapp.net/TCMBCommon-iris/TCMBCommon.svc/GB0010001/](http://tcmb-demo.cloudapp.net/TCMBCommon-iris/TCMBCommon.svc/GB0010001/)
 
-* [API Documentation](InternetAPI)
+* [API documentation](InternetAPI)
 
 ##### Credentials
 
