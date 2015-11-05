@@ -9,7 +9,7 @@ title: Temenos API Documentation
 http://temenostech.temenos.com/rels/authorise
 
 ## methods
-POST
+PUT
 
 ## description
 This type of resource is designed to provide a deal approval facility for a T24 Application.  When entering deals into T24 it is common practice to require an additional user to authorise the newly `input` deal.  This `authorise` resource provides that capability by allowing the second user to POST their approval. 
