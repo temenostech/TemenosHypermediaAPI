@@ -12,7 +12,7 @@ http://temenostech.temenos.com/rels/authorise
 PUT
 
 ## description
-This type of resource is designed to provide a deal approval facility for a T24 Application.  When entering deals into T24 it is common practice to require an additional user to authorise the newly `input` deal.  This `authorise` resource provides that capability by allowing the second user to POST their approval. 
+This type of resource is designed to provide a deal approval facility for a T24 Application.  When entering deals into T24 it is common practice to require an additional user to authorise the newly `input` deal.  This `authorise` resource provides that capability by allowing the second user to PUT their approval. 
 
 
 ## uri templates
@@ -28,5 +28,5 @@ An atom representation of a link to the authorise Customer resource
 
 The basic structure of the http request is as follows:
 <pre>
-POST /T24.svc/CustomersIAuth('100226')/authorise HTTP/1.1
+PUT /T24.svc/CustomersIAuth('100226')/authorise HTTP/1.1
 </pre>
