@@ -47,6 +47,18 @@ title: Temenos API Documentation
 
 [delete](delete)
 
+[deliveryPreview](deliveryPreview)
+
+[dealSlips](dealSlips)
+
+[enquiryReport](enquiryReport)
+
+[changedValues](changedValues)
+
 [restore](restore)
 
 [aapopulate](aapopulate)
+
+[uploads](uploads)
+
+[downloads](downloads)
