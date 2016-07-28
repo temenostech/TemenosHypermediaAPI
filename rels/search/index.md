@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # search
 
 ## fqn
-http://temenostech.temenos.com/rels/search
+http://rels.temenos.com/rels/search
 
 ## methods
 GET
@@ -26,7 +26,7 @@ The User-Agent MUST replace every occurrence of the template parameters with a v
 ## example
 An atom representation of a link to the `search` resource
 <pre>
-&lt;link rel="http://temenostech.temenos.com/rels/search" type="application/atom+xml;type=entry" title="search" href="search?q=Andrew&core=customer_search"/&gt;
+&lt;link rel="http://rels.temenos.com/rels/search" type="application/atom+xml;type=entry" title="search" href="search?q=Andrew&core=customer_search"/&gt;
 </pre>
 
 The basic structure of the http request is as follows:

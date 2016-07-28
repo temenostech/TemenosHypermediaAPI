@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # contract
 
 ## fqn
-http://temenostech.temenos.com/rels/contract
+http://rels.temenos.com/rels/contract
 
 ## methods
 GET
@@ -23,7 +23,7 @@ The User-Agent MUST replace every occurrence of the template parameters with a v
 ## example
 An atom representation of a link to the `contract` Customer resource
 <pre>
-&lt;link rel="http://www.temenos.com/rels/contract" type="application/atom+xml;type=entry" title="Customer Contract" href="Customers()/contract"/&gt;
+&lt;link rel="http://rels.temenos.com/rels/contract" type="application/atom+xml;type=entry" title="Customer Contract" href="Customers()/contract"/&gt;
 </pre>
 
 The basic structure of the http request is as follows:

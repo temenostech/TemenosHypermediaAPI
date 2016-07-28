@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # aapopulate
 
 ## fqn
-http://temenostech.temenos.com/rels/aapopulate
+http://rels.temenos.com/rels/aapopulate
 
 ## methods
 POST
@@ -25,7 +25,7 @@ None
 ## example
 An atom representation of a link to the `populate` Customer resource
 <pre>
-&lt;link rel="http://www.temenos.com/rels/aapopulate" type="application/atom+xml;type=entry" title="AAA Populate" href="verAaArrangementActivity_AaNews('AA123456')/aapopulate"/&gt;
+&lt;link rel="http://rels.temenos.com/rels/aapopulate" type="application/atom+xml;type=entry" title="AAA Populate" href="verAaArrangementActivity_AaNews('AA123456')/aapopulate"/&gt;
 </pre>
 
 The basic structure of the http request is as follows:

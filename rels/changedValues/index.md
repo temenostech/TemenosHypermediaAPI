@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # changedValues
 
 ## fqn
-http://temenostech.temenos.com/rels/changedValues
+http://rels.temenos.com/rels/changedValues
 
 ## methods
 GET
@@ -22,7 +22,7 @@ None
 ## example
 An atom representation of a link to the `changedValues` Customer_Inputs deal
 <pre>
-&lt;link href="verCustomer_Inputs('12345')/changedValues" rel="http://temenostech.temenos.com/rels/changedValues" type="application/atom+xml;type=entry" title="Get changed values" hreflang="en" length="0" /&gt;
+&lt;link href="verCustomer_Inputs('12345')/changedValues" rel="http://rels.temenos.com/rels/changedValues" type="application/atom+xml;type=entry" title="Get changed values" hreflang="en" length="0" /&gt;
 </pre>
 
 The basic structure of the http request is as follows:

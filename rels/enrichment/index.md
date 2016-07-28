@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # enrichment
 
 ## fqn
-http://temenostech.temenos.com/rels/enrichment
+http://rels.temenos.com/rels/enrichment
 
 ## methods
 GET
@@ -23,7 +23,7 @@ The User-Agent MUST replace every occurrence of the template parameters with a v
 ## example
 An atom representation of a link to the `enrichment` resource for FundsTransfer
 <pre>
-&lt;link rel="http://temenostech.temenos.com/rels/enrichments" type="application/atom+xml;type=entry" title="field enrichment" href="verFundsTransfer_News()/enrichment"/&gt;
+&lt;link rel="http://rels.temenos.com/rels/enrichments" type="application/atom+xml;type=entry" title="field enrichment" href="verFundsTransfer_News()/enrichment"/&gt;
 </pre>
 
 The basic structure of the http request is as follows:

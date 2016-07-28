@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # deliveryPreview
 
 ## fqn
-http://temenostech.temenos.com/rels/deliveryPreview
+http://rels.temenos.com/rels/deliveryPreview
 
 ## methods
 POST
@@ -24,7 +24,7 @@ None
 ## example
 An atom representation of a link to the `deliveryPreview` Fundstransfer deal
 <pre>
-&lt;link href="verFundsTransfers('FTXXXXXX')/deliveryPreview" rel="http://temenostech.temenos.com/rels/deliveryPreview" type="application/atom+xml;type=entry" title="Preview deal" hreflang="en" length="0" /&gt;
+&lt;link href="verFundsTransfers('FTXXXXXX')/deliveryPreview" rel="http://rels.temenos.com/rels/deliveryPreview" type="application/atom+xml;type=entry" title="Preview deal" hreflang="en" length="0" /&gt;
 </pre>
 
 The basic structure of the http request is as follows:

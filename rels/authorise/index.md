@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # authorise
 
 ## fqn
-http://temenostech.temenos.com/rels/authorise
+http://rels.temenos.com/rels/authorise
 
 ## methods
 PUT
@@ -23,7 +23,7 @@ None
 ## example
 An atom representation of a link to the authorise Customer resource
 <pre>
-&lt;link rel="http://temenostech.temenos.com/rels/authorise" type="application/atom+xml;type=entry" title="Authorise Customer" href="CustomersIAuth('100226')/authorise"/&gt;
+&lt;link rel="http://rels.temenos.com/rels/authorise" type="application/atom+xml;type=entry" title="Authorise Customer" href="CustomersIAuth('100226')/authorise"/&gt;
 </pre>
 
 The basic structure of the http request is as follows:

@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # dealSlips
 
 ## fqn
-http://temenostech.temenos.com/rels/dealSlips
+http://rels.temenos.com/rels/dealSlips
 
 ## methods
 GET
@@ -24,7 +24,7 @@ None
 ## example
 An atom representation of a link to the `dealSlips` Fundstransfer deal
 <pre>
-&lt;link href="verFundsTransfers('FTXXXXXX')/dealSlips" rel="http://temenostech.temenos.com/rels/dealSlips" type="application/atom+xml;type=entry" title="Preview deal" hreflang="en" length="0" /&gt;
+&lt;link href="verFundsTransfers('FTXXXXXX')/dealSlips" rel="http://rels.temenos.com/rels/dealSlips" type="application/atom+xml;type=entry" title="Preview deal" hreflang="en" length="0" /&gt;
 </pre>
 
 The basic structure of the http request is as follows:

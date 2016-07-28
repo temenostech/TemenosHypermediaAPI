@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # downloads
 
 ## fqn
-http://temenostech.temenos.com/rels/downloads
+http://rels.temenos.com/rels/downloads
 
 ## methods
 POST

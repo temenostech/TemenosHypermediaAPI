@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # reverse
 
 ## fqn
-http://temenostech.temenos.com/rels/reverse
+http://rels.temenos.com/rels/reverse
 
 ## methods
 POST | PUT
@@ -24,7 +24,7 @@ None
 ## example
 An atom representation of a link to the `reverse` Customer resource
 <pre>
-&lt;link href="Customer_Inputs('12345')/reverse" rel="http://temenostech.temenos.com/rels/reverse" type="application/atom+xml;type=entry" title="reverse record" hreflang="en" length="0" /&gt;
+&lt;link href="Customer_Inputs('12345')/reverse" rel="http://rels.temenos.com/rels/reverse" type="application/atom+xml;type=entry" title="reverse record" hreflang="en" length="0" /&gt;
 </pre>
 
 The basic structure of the http request is as follows:

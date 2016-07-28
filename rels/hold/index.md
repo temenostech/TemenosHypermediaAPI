@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # input
 
 ## fqn
-http://temenostech.temenos.com/rels/hold
+http://rels.temenos.com/rels/hold
 
 ## methods
 POST
@@ -26,7 +26,7 @@ None
 ## example
 An atom representation of a link to the `hold` Customer resource
 <pre>
-&lt;link href="Customer_Inputs('12345')/hold" rel="http://temenostech.temenos.com/rels/hold" type="application/atom+xml;type=entry" title="hold record" hreflang="en" length="0" /&gt;
+&lt;link href="Customer_Inputs('12345')/hold" rel="http://rels.temenos.com/rels/hold" type="application/atom+xml;type=entry" title="hold record" hreflang="en" length="0" /&gt;
 </pre>
 
 The basic structure of the http request is as follows:

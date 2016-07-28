@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # new
 
 ## fqn
-http://temenostech.temenos.com/rels/new
+http://rels.temenos.com/rels/new
 
 ## methods
 POST
@@ -24,7 +24,7 @@ The User-Agent MUST replace every occurrence of the template parameters with a v
 ## example
 An atom representation of a link to the new FundsTransfer resource
 <pre>
-&lt;link rel="http://temenostech.temenos.com/rels/new" type="application/atom+xml;type=entry" title="New FundsTransfer" href="FundsTransfers()/new*{?RefNo=FT00100001}*"/&gt;
+&lt;link rel="http://rels.temenos.com/rels/new" type="application/atom+xml;type=entry" title="New FundsTransfer" href="FundsTransfers()/new*{?RefNo=FT00100001}*"/&gt;
 </pre>
 
 The basic structure of the http request is as follows:

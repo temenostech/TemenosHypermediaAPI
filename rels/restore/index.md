@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # restore
 
 ## fqn
-http://temenostech.temenos.com/rels/restore
+http://rels.temenos.com/rels/restore
 
 ## methods
 POST
@@ -24,7 +24,7 @@ None
 ## example
 An atom representation of a link to the `restore` Customer resource
 <pre>
-&lt;link href="Customer_Inputs('12345')/restore" rel="http://temenostech.temenos.com/rels/restore" type="application/atom+xml;type=entry" title="restore record" hreflang="en" length="0" /&gt;
+&lt;link href="Customer_Inputs('12345')/restore" rel="http://rels.temenos.com/rels/restore" type="application/atom+xml;type=entry" title="restore record" hreflang="en" length="0" /&gt;
 </pre>
 
 The basic structure of the http request is as follows:

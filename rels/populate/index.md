@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # populate
 
 ## fqn
-http://temenostech.temenos.com/rels/populate
+http://rels.temenos.com/rels/populate
 
 ## methods
 POST
@@ -25,7 +25,7 @@ The User-Agent MUST replace every occurrence of the template parameters with a v
 ## example
 An atom representation of a link to the `populate` Customer resource
 <pre>
-&lt;link rel="http://www.temenos.com/rels/populate" type="application/atom+xml;type=entry" title="Customer Populate" href="Customers()/populate*{?CustomerCode=12345}*"/&gt;
+&lt;link rel="http://rels.temenos.com/rels/populate" type="application/atom+xml;type=entry" title="Customer Populate" href="Customers()/populate*{?CustomerCode=12345}*"/&gt;
 </pre>
 
 The basic structure of the http request is as follows:

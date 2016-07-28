@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # validate
 
 ## fqn
-http://temenostech.temenos.com/rels/validate
+http://rels.temenos.com/rels/validate
 
 ## methods
 POST
@@ -26,7 +26,7 @@ None
 ## example
 An atom representation of a link to the authorise Customer resource
 <pre>
-&lt;link href="Customer_Inputs()/validate" rel="http://temenostech.temenos.com/rels/validate" type="application/atom+xml;type=entry" title="validate enttry" hreflang="en" length="0" /&gt;
+&lt;link href="Customer_Inputs()/validate" rel="http://rels.temenos.com/rels/validate" type="application/atom+xml;type=entry" title="validate enttry" hreflang="en" length="0" /&gt;
 </pre>
 
 The basic structure of the http request is as follows:

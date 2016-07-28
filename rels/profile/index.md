@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # profile
 
 ## fqn
-http://temenostech.temenos.com/rels/profile
+http://rels.temenos.com/rels/profile
 
 ## methods
 GET
@@ -23,7 +23,7 @@ None
 ## example
 An atom representation of a link to the `profile` resource
 <pre>
-&lt;link rel="http://temenostech.temenos.com/rels/profile" type="application/atom+xml;type=entry" title="User Profile" href="/profile"/&gt;
+&lt;link rel="http://rels.temenos.com/rels/profile" type="application/atom+xml;type=entry" title="User Profile" href="/profile"/&gt;
 </pre>
 
 The basic structure of the http request is as follows:

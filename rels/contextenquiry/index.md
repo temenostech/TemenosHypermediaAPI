@@ -5,7 +5,7 @@ title: Temenos API Documentation
 # contextenquiry
 
 ## fqn
-http://temenostech.temenos.com/rels/contextenquiry
+http://rels.temenos.com/rels/contextenquiry
 
 ## methods
 GET
@@ -25,7 +25,7 @@ The User-Agent MUST replace every occurrence of the template parameters with a v
 ## example
 An atom representation of a link to the `context enquiry` list resource
 <pre>
-&lt;link rel="http://temenostech.temenos.com/rels/contextenquiry" type="application/atom+xml;type=entry" title="contextenquiry" href="ContextEnquiry{&application*}{&field*}"/&gt;
+&lt;link rel="http://rels.temenos.com/rels/contextenquiry" type="application/atom+xml;type=entry" title="contextenquiry" href="ContextEnquiry{&application*}{&field*}"/&gt;
 </pre>
 
 The basic structure of the http request is as follows:

@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # menu
 
 ## fqn
-http://temenostech.temenos.com/rels/menu
+http://rels.temenos.com/rels/menu
 
 ## methods
 GET
@@ -24,7 +24,7 @@ None
 ## example
 An atom representation of a link to the user `menu` resource
 <pre>
-&lt;link href="usermenu" rel="http://temenostech.temenos.com/rels/menu" type="application/atom+xml;type=entry" title="User Menu" hreflang="en" length="0" /&gt;
+&lt;link href="usermenu" rel="http://rels.temenos.com/rels/menu" type="application/atom+xml;type=entry" title="User Menu" hreflang="en" length="0" /&gt;
 </pre>
 
 The basic structure of the http request is as follows:

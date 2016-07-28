@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # root
 
 ## fqn
-http://temenostech.temenos.com/rels/root
+http://rels.temenos.com/rels/root
 
 ## methods
 GET
@@ -23,7 +23,7 @@ None
 ## example
 An atom representation of a link to the `root` resource
 <pre>
-&lt;link rel="http://temenostech.temenos.com/rels/root" type="application/atom+xml;type=entry" title="service root" href="root"/&gt;
+&lt;link rel="http://rels.temenos.com/rels/root" type="application/atom+xml;type=entry" title="service root" href="root"/&gt;
 </pre>
 
 The basic structure of the http request is as follows:

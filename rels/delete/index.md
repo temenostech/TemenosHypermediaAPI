@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # delete
 
 ## fqn
-http://temenostech.temenos.com/rels/delete
+http://rels.temenos.com/rels/delete
 
 ## methods
 DELETE
@@ -23,7 +23,7 @@ None
 ## example
 An atom representation of a link to the delete Customer resource
 <pre>
-&lt;link rel="http://temenostech.temenos.com/rels/delete" type="application/atom+xml;type=entry" title="Delete Customer" href="Customers('123')/delete"/&gt;
+&lt;link rel="http://rels.temenos.com/rels/delete" type="application/atom+xml;type=entry" title="Delete Customer" href="Customers('123')/delete"/&gt;
 </pre>
 
 The basic structure of the http request is as follows:

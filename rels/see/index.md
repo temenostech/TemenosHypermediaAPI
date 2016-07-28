@@ -5,7 +5,7 @@ title: Temenos API Documentation
 # see
 
 ## fqn
-http://temenostech.temenos.com/rels/see
+http://rels.temenos.com/rels/see
 
 ## methods
 GET
@@ -23,7 +23,7 @@ None
 ## example
 An atom representation of a link to the `see` list resource
 <pre>
-&lt;link rel="http://temenostech.temenos.com/rels/see" type="application/atom+xml;type=entry" title="See Customer" href="verCustomer_Inputs('12345')/see"/&gt;
+&lt;link rel="http://rels.temenos.com/rels/see" type="application/atom+xml;type=entry" title="See Customer" href="verCustomer_Inputs('12345')/see"/&gt;
 </pre>
 
 The basic structure of the http request is as follows:

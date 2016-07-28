@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # verify
 
 ## fqn
-http://temenostech.temenos.com/rels/verify
+http://rels.temenos.com/rels/verify
 
 ## methods
 POST
@@ -24,7 +24,7 @@ None
 ## example
 An atom representation of a link to the `VERIFY` EBS.AUTO.FUNCTION resource
 <pre>
-&lt;link href="EbsAutoFunction_Tests('CUSTOMER.100')/verify" rel="http://temenostech.temenos.com/rels/verify" type="application/atom+xml;type=entry" title="verify entry" hreflang="en" length="0" /&gt;
+&lt;link href="EbsAutoFunction_Tests('CUSTOMER.100')/verify" rel="http://rels.temenos.com/rels/verify" type="application/atom+xml;type=entry" title="verify entry" hreflang="en" length="0" /&gt;
 </pre>
 
 The basic structure of the http request is as follows:

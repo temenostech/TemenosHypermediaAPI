@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # paste
 
 ## fqn
-http://temenostech.temenos.com/rels/paste
+http://rels.temenos.com/rels/paste
 
 ## methods
 POST
@@ -25,7 +25,7 @@ The User-Agent MUST replace every occurrence of the template parameters with a v
 ## example
 An atom representation of a link to the `paste` Customer resource
 <pre>
-&lt;link rel="http://temenostech.temenos.com/rels/paste" type="application/atom+xml;type=entry" title="Copy deal" href="verCustomer_Inputs()/paste*{?CustomerCode=12345}*"/&gt;
+&lt;link rel="http://rels.temenos.com/rels/paste" type="application/atom+xml;type=entry" title="Copy deal" href="verCustomer_Inputs()/paste*{?CustomerCode=12345}*"/&gt;
 </pre>
 
 The basic structure of the http request is as follows:

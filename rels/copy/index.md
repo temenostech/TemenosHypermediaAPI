@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # copy
 
 ## fqn
-http://temenostech.temenos.com/rels/copy
+http://rels.temenos.com/rels/copy
 
 ## methods
 POST
@@ -23,7 +23,7 @@ None
 ## example
 An atom representation of a link to the `copy` Customer resource
 <pre>
-&lt;link rel="http://temenostech.temenos.com/rels/copy" type="application/atom+xml;type=entry" title="Copy deal" href="verCustomer_Inputs('12345')/copy"/&gt;
+&lt;link rel="http://rels.temenos.com/rels/copy" type="application/atom+xml;type=entry" title="Copy deal" href="verCustomer_Inputs('12345')/copy"/&gt;
 </pre>
 
 The basic structure of the http request is as follows:

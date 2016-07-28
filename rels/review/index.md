@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # review
 
 ## fqn
-http://temenostech.temenos.com/rels/review
+http://rels.temenos.com/rels/review
 
 ## methods
 GET
@@ -24,7 +24,7 @@ None
 ## example
 An atom representation of a link to the `review` Customer resource
 <pre>
-&lt;link href="Customer_Inputs('12345')/review" rel="http://temenostech.temenos.com/rels/review" type="application/atom+xml;type=entry" title="review record" hreflang="en" length="0" /&gt;
+&lt;link href="Customer_Inputs('12345')/review" rel="http://rels.temenos.com/rels/review" type="application/atom+xml;type=entry" title="review record" hreflang="en" length="0" /&gt;
 </pre>
 
 The basic structure of the http request is as follows:

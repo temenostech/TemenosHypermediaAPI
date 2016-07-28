@@ -6,7 +6,7 @@ title: Temenos API Documentation
 #metadata
 
 ## fqn
-http://temenostech.temenos.com/rels/metadata
+http://rels.temenos.com/rels/metadata
 
 ## methods
 POST
@@ -47,7 +47,7 @@ None
 ## example
 An atom representation of a link to the new FundsTransfer resource
 <pre>
-&lt;link rel="http://temenostech.temenos.com/rels/metadata" type="application/atom+xml;type=entry" title="runtime metadata" href="verFundsTransfer_News()/metadata"/&gt;
+&lt;link rel="http://rels.temenos.com/rels/metadata" type="application/atom+xml;type=entry" title="runtime metadata" href="verFundsTransfer_News()/metadata"/&gt;
 </pre>
 
 The basic structure of the http request is as follows:

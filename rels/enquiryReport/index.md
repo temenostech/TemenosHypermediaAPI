@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # enquiryReport
 
 ## fqn
-http://temenostech.temenos.com/rels/enquiryReport
+http://rels.temenos.com/rels/enquiryReport
 
 ## methods
 GET
@@ -24,7 +24,7 @@ None
 ## example
 An atom representation of a link to the `enquiryReport` Fundstransfer deal
 <pre>
-&lt;link href="verFundsTransfers('FTXXXXXX')/enquiryReport" rel="http://temenostech.temenos.com/rels/enquiryReport" type="application/atom+xml;type=entry" title="Preview deal" hreflang="en" length="0" /&gt;
+&lt;link href="verFundsTransfers('FTXXXXXX')/enquiryReport" rel="http://rels.temenos.com/rels/enquiryReport" type="application/atom+xml;type=entry" title="Preview deal" hreflang="en" length="0" /&gt;
 </pre>
 
 The basic structure of the http request is as follows:

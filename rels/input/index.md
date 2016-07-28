@@ -6,7 +6,7 @@ title: Temenos API Documentation
 # input
 
 ## fqn
-http://temenostech.temenos.com/rels/input
+http://rels.temenos.com/rels/input
 
 ## methods
 POST, PUT
@@ -24,7 +24,7 @@ None
 ## example
 An atom representation of a link to the authorise Customer resource
 <pre>
-&lt;link href="Customer_Inputs()" rel="http://temenostech.temenos.com/rels/input" type="application/atom+xml;type=entry" title="input" hreflang="en" length="0" /&gt;
+&lt;link href="Customer_Inputs()" rel="http://rels.temenos.com/rels/input" type="application/atom+xml;type=entry" title="input" hreflang="en" length="0" /&gt;
 </pre>
 
 The basic structure of the http request is as follows:
